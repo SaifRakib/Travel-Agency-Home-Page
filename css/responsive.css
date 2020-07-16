@@ -1,0 +1,91 @@
+@media(min-width:1200px) {}
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+@media(min-width:768px) and (max-width:991px) {}
+
+@media(min-width:576px) and (max-width:767px) {}
+
+@media(max-width: 575px) {
+
+    /*menu part start*/
+    .main_menu .navbar-brand {
+        width: 210px;
+        height: 64px;
+    }
+
+    .menu_fix .navbar-brand {
+        height: 49px;
+        background: blue;
+    }
+
+    .main_menu button {
+        color: #fff;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu ul {
+        background: blue;
+        text-align: center;
+        position: absolute;
+        width: 30%;
+
+    }
+
+    .main_menu .navbar-brand {
+        width: 210px;
+        height: 63px;
+        top: -10px;
+    }
+
+
+    .banner_text h2::after {
+        display: none;
+    }
+
+    .banner_text h2::before {
+        display: none;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text h1::before {
+        display: none;
+    }
+
+    .banner_text p::after {
+        display: none;
+    }
+
+    .banner_text p::before {
+        display: none;
+    }
+
+    .banner_item {
+        padding: 110px 0 60px;
+    }
+    .banner_text h2 {
+	font-size: 20px;
+}
+    .banner_text h1 {
+	font-size: 40px;
+}
+.banner_text p {
+	line-height: 14px;
+	padding-bottom: 15px;
+}
+    .banner_text a {
+	padding: 0px 5px; 
+	line-height: 30px;
+	margin: 0px 3px;
+}
+    
+    .img2{
+        padding-bottom: 30px;
+    }
+    /*menu part end*/
